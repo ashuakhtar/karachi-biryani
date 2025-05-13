@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -32,6 +33,16 @@ const Hero = () => {
               </Link>
             </div>
           </div>
+        </div>
+        {/* Image container */}
+        <div className="mt-12 relative w-full h-[400px]">
+          <Image
+            src="/images/chicken-biryani.png"
+            alt="Delicious Karachi Biryani"
+            fill
+            className="object-contain"
+            priority
+          />
         </div>
       </div>
     </div>
