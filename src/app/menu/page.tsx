@@ -41,7 +41,7 @@ const menuItems = [
       {
         id: 4,
         name: "Masala Butter Chicken",
-        price: 10.99,
+        price: 9.99,
         description:
           "Creamy, rich butter chicken with a blend of aromatic spices and tomato gravy.",
         image: "/images/masala-butter-chicken.png",
