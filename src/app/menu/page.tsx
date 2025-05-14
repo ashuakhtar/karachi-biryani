@@ -102,7 +102,9 @@ const Menu = () => {
           {/* Menu Items */}
           <div
             className={
-              activeCategory === "Curry" || activeCategory === "Appetizers"
+              activeCategory === "Curry" ||
+              activeCategory === "Appetizers" ||
+              activeCategory === "Biryani"
                 ? "flex flex-row justify-center gap-8 flex-wrap"
                 : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
             }
