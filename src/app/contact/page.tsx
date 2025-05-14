@@ -114,11 +114,11 @@ const Contact = () => {
                   </div>
                 </div>
                 <p className="text-gray-600">
-                  123 Food Street
+                  Surrey, British Columbia
                   <br />
-                  Karachi, Pakistan
+                  Phone: +1 604 6528449
                   <br />
-                  Phone: +92 123 456 7890
+                  Email: info@saifbhai.com
                 </p>
               </div>
 
