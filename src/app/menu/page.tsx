@@ -9,8 +9,8 @@ const menuItems = [
     items: [
       {
         id: 1,
-        name: "Special Biryani",
-        price: 12.99,
+        name: "Vegetable Biryani",
+        price: 9.99,
         description:
           "Our signature biryani with premium basmati rice and special spices",
         image: "/images/special-biryani.jpg",
@@ -18,14 +18,14 @@ const menuItems = [
       {
         id: 2,
         name: "Chicken Biryani",
-        price: 10.99,
+        price: 9.99,
         description: "Classic chicken biryani with aromatic spices",
         image: "/images/chicken-biryani.jpg",
       },
       {
         id: 3,
         name: "Beef Biryani",
-        price: 11.99,
+        price: 9.99,
         description: "Tender beef biryani with traditional spices",
         image: "/images/beef-biryani.jpg",
       },

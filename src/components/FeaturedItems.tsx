@@ -3,21 +3,21 @@ import Link from "next/link";
 const featuredItems = [
   {
     id: 1,
-    title: "Special Biryani",
-    price: "12.99",
+    title: "Vegetable Biryani",
+    price: "9.99",
     description:
       "Our signature biryani with premium basmati rice and special spices",
   },
   {
     id: 2,
-    title: "Family Pack",
-    price: "29.99",
+    title: "Chicken Biryani",
+    price: "9.99",
     description: "Perfect for family gatherings with extra portions",
   },
   {
     id: 3,
-    title: "Weekend Special",
-    price: "19.99",
+    title: "Beef Biryani",
+    price: "9.99",
     description: "Weekend exclusive biryani with special accompaniments",
   },
 ];
