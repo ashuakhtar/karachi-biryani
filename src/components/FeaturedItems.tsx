@@ -22,7 +22,7 @@ const featuredItems = [
     title: "Beef Biryani",
     price: "9.99",
     description: "Weekend exclusive biryani with special accompaniments",
-    image: "/images/beef-biryani.jpg",
+    image: "/images/beef-biryani.png",
   },
 ];
 

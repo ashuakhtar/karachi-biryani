@@ -18,7 +18,7 @@ const menuItems = [
       },
       {
         id: 2,
-        name: "Chicken Biryani",
+        name: "Biryani",
         price: 9.99,
         description: "Classic chicken biryani with aromatic spices",
         image: "/images/chicken-biryani.png",
@@ -28,7 +28,7 @@ const menuItems = [
         name: "Beef Biryani",
         price: 9.99,
         description: "Tender beef biryani with traditional spices",
-        image: "/images/beef-biryani.jpg",
+        image: "/images/beef-biryani.png",
       },
     ],
   },
