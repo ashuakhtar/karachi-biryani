@@ -108,10 +108,16 @@ const Contact = () => {
                   Location
                 </h2>
                 <div className="h-64 bg-gray-200 rounded-lg mb-4">
-                  {/* Placeholder for map */}
-                  <div className="h-full flex items-center justify-center text-gray-500">
-                    Map will be displayed here
-                  </div>
+                  <iframe
+                    src="https://www.google.com/maps?q=49.1551,-122.8417&z=13&output=embed"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, borderRadius: "0.5rem" }}
+                    allowFullScreen={true}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Surrey, Fleetwood and Newton Map"
+                  ></iframe>
                 </div>
                 <p className="text-gray-600">
                   Surrey, British Columbia
