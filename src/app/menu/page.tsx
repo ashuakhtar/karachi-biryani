@@ -44,14 +44,7 @@ const menuItems = [
         price: 10.99,
         description:
           "Creamy, rich butter chicken with a blend of aromatic spices and tomato gravy.",
-        image: "/images/chicken-curry.jpg",
-      },
-      {
-        id: 5,
-        name: "Vegetable Curry",
-        price: 8.99,
-        description: "Seasonal vegetables simmered in a flavorful curry sauce.",
-        image: "/images/vegetable-curry.jpg",
+        image: "/images/masala-butter-chicken.png",
       },
     ],
   },
@@ -107,13 +100,19 @@ const Menu = () => {
           </div>
 
           {/* Menu Items */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            className={
+              activeCategory === "Curry" || activeCategory === "Appetizers"
+                ? "flex flex-row justify-center gap-8 flex-wrap"
+                : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            }
+          >
             {menuItems
               .find((category) => category.category === activeCategory)
               ?.items.map((item) => (
                 <div
                   key={item.id}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
+                  className={`bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 max-w-xs`}
                 >
                   <div className="relative w-full h-48 bg-gray-100">
                     {item.image && (
