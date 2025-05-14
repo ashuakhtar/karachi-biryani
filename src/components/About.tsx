@@ -1,15 +1,18 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
           <div className="relative h-64 lg:h-96 mb-8 lg:mb-0">
-            <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg">
-              {/* Placeholder for restaurant image */}
-              <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
-                Restaurant Image
-              </div>
-            </div>
+            <Image
+              src="/images/multi-dish.webp"
+              alt="Restaurant Dishes"
+              fill
+              className="object-cover rounded-lg"
+              priority
+            />
           </div>
 
           <div className="lg:pl-8">
