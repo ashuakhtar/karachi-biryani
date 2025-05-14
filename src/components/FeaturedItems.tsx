@@ -7,21 +7,23 @@ const featuredItems = [
     title: "Vegetable Biryani",
     price: "9.99",
     description:
-      "Our signature biryani with premium basmati rice and special spices",
+      "Aromatic basmati rice cooked with fresh vegetables and traditional spices.",
     image: "/images/vegetable-biryani.png",
   },
   {
     id: 2,
     title: "Chicken Biryani",
     price: "9.99",
-    description: "Perfect for family gatherings with extra portions",
+    description:
+      "Tender chicken pieces layered with fragrant basmati rice and house spices.",
     image: "/images/chicken-biryani.png",
   },
   {
     id: 3,
     title: "Beef Biryani",
     price: "9.99",
-    description: "Weekend exclusive biryani with special accompaniments",
+    description:
+      "Succulent beef simmered with basmati rice and bold Karachi spices.",
     image: "/images/beef-biryani.png",
   },
 ];
