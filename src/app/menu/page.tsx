@@ -36,17 +36,38 @@ const menuItems = [
   },
   {
     id: 2,
-    category: "Appetizers",
+    category: "Curry",
     items: [
       {
         id: 4,
+        name: "Masala Butter Chicken",
+        price: 10.99,
+        description:
+          "Creamy, rich butter chicken with a blend of aromatic spices and tomato gravy.",
+        image: "/images/chicken-curry.jpg",
+      },
+      {
+        id: 5,
+        name: "Vegetable Curry",
+        price: 8.99,
+        description: "Seasonal vegetables simmered in a flavorful curry sauce.",
+        image: "/images/vegetable-curry.jpg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    category: "Appetizers",
+    items: [
+      {
+        id: 6,
         name: "Pakoras",
         price: 5.99,
         description: "Crispy vegetable fritters served with chutney",
         image: "/images/pakoras.jpg",
       },
       {
-        id: 5,
+        id: 7,
         name: "Samosa",
         price: 4.99,
         description: "Spiced potato and peas filled pastry",
