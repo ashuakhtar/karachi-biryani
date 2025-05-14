@@ -8,7 +8,7 @@ const featuredItems = [
     price: "9.99",
     description:
       "Our signature biryani with premium basmati rice and special spices",
-    image: "/images/vegetable-biryani.jpg",
+    image: "/images/vegetable-biryani.png",
   },
   {
     id: 2,
