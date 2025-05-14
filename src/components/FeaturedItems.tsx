@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const featuredItems = [
   {
@@ -7,18 +8,21 @@ const featuredItems = [
     price: "9.99",
     description:
       "Our signature biryani with premium basmati rice and special spices",
+    image: "/images/vegetable-biryani.jpg",
   },
   {
     id: 2,
     title: "Chicken Biryani",
     price: "9.99",
     description: "Perfect for family gatherings with extra portions",
+    image: "/images/chicken-biryani.png",
   },
   {
     id: 3,
     title: "Beef Biryani",
     price: "9.99",
     description: "Weekend exclusive biryani with special accompaniments",
+    image: "/images/beef-biryani.jpg",
   },
 ];
 
@@ -41,7 +45,18 @@ const FeaturedItems = () => {
               key={item.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
             >
-              <div className="h-48 bg-gradient-to-r from-orange-400 to-orange-600" />
+              <div className="relative w-full h-48 bg-gray-100">
+                {item.image && (
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover"
+                    priority={item.id === 2}
+                  />
+                )}
+              </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900">
                   {item.title}

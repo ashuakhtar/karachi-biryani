@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 
 const menuItems = [
   {
@@ -13,14 +14,14 @@ const menuItems = [
         price: 9.99,
         description:
           "Our signature biryani with premium basmati rice and special spices",
-        image: "/images/special-biryani.jpg",
+        image: "/images/vegetable-biryani.jpg",
       },
       {
         id: 2,
         name: "Chicken Biryani",
         price: 9.99,
         description: "Classic chicken biryani with aromatic spices",
-        image: "/images/chicken-biryani.jpg",
+        image: "/images/chicken-biryani.png",
       },
       {
         id: 3,
@@ -91,11 +92,17 @@ const Menu = () => {
                   key={item.id}
                   className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
                 >
-                  <div className="h-48 bg-gradient-to-r from-orange-400 to-orange-600">
-                    {/* Placeholder for item image */}
-                    <div className="h-full flex items-center justify-center text-white text-xl font-bold">
-                      {item.name}
-                    </div>
+                  <div className="relative w-full h-48 bg-gray-100">
+                    {item.image && (
+                      <Image
+                        src={item.image}
+                        alt={item.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className="object-cover"
+                        priority={item.id === 2} // Prioritize loading chicken biryani image
+                      />
+                    )}
                   </div>
                   <div className="p-6">
                     <h3 className="text-xl font-semibold text-gray-900">
