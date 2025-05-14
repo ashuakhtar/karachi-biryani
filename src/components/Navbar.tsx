@@ -43,7 +43,7 @@ const Navbar = () => {
             </Link>
             <div className="flex items-center space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1WyvxmitH9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-orange-600"
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <FaFacebook className="w-6 h-6" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/saif_bhaai?igsh=MWUyZnMxb256ejgycQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-orange-600"
@@ -133,7 +133,7 @@ const Navbar = () => {
             </Link>
             <div className="flex items-center space-x-4 px-3 py-2">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1WyvxmitH9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-orange-600"
@@ -141,7 +141,7 @@ const Navbar = () => {
                 <FaFacebook className="w-6 h-6" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/saif_bhaai?igsh=MWUyZnMxb256ejgycQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-orange-600"
